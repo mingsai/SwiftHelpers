@@ -16,6 +16,7 @@
 		0793181723276C49000D5B9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0793181523276C49000D5B9A /* LaunchScreen.storyboard */; };
 		0793182223276C49000D5B9A /* SwiftHelpersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793182123276C49000D5B9A /* SwiftHelpersTests.swift */; };
 		0793182D23276C49000D5B9A /* SwiftHelpersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793182C23276C49000D5B9A /* SwiftHelpersUITests.swift */; };
+		0793183B23276C66000D5B9A /* ITunesFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0793183A23276C66000D5B9A /* ITunesFeed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0793182823276C49000D5B9A /* SwiftHelpersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHelpersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0793182C23276C49000D5B9A /* SwiftHelpersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHelpersUITests.swift; sourceTree = "<group>"; };
 		0793182E23276C49000D5B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0793183A23276C66000D5B9A /* ITunesFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITunesFeed.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		0793180623276C43000D5B9A /* SwiftHelpers */ = {
 			isa = PBXGroup;
 			children = (
+				0793183A23276C66000D5B9A /* ITunesFeed.swift */,
 				0793180723276C43000D5B9A /* AppDelegate.swift */,
 				0793180923276C43000D5B9A /* SceneDelegate.swift */,
 				0793180E23276C43000D5B9A /* ContentView.swift */,
@@ -274,6 +277,7 @@
 				0793180D23276C43000D5B9A /* SwiftHelpers.xcdatamodeld in Sources */,
 				0793180F23276C43000D5B9A /* ContentView.swift in Sources */,
 				0793180A23276C43000D5B9A /* SceneDelegate.swift in Sources */,
+				0793183B23276C66000D5B9A /* ITunesFeed.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
